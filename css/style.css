@@ -214,8 +214,7 @@ body {
   margin-left: 10px;
 }
 .navbar {
-  padding: 50px 0;
-  margin-bottom: 80px;
+  padding: 50px 0 130px 0;
 }
 .nav {
   margin-right: auto;
@@ -241,7 +240,6 @@ body {
   padding-bottom: 200px;
 }
 .headline-content {
-  padding-right: 80px;
   width: 650px;
 }
 .headline-title {
@@ -306,5 +304,107 @@ body {
   font-weight: 500;
   line-height: 160%;
 }
-
 /*=====================Rectangle STYLES END======================*/
+/*=====================Features STYLES START======================*/
+.features-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 150px 280px 100px 280px;
+}
+.features-title {
+  color: rgb(33, 35, 83);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 50px;
+}
+.features-text {
+  color: rgb(75, 93, 104);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+/*=====================Features STYLES END======================*/
+/*=====================SERVICES STYLES START======================*/
+.services-boxes {
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services-box {
+  width: 380px;
+  min-height: 360px;
+  padding: 50px 50px 30px 110px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  position: relative;
+  z-index: 0;
+}
+.services-box::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: inherit;
+  border-radius: 50px;
+  transform: skewX(-11deg);
+  top: 0px;
+  left: -35px;
+  z-index: -1;
+}
+.search {
+  background-color: #f0faf9;
+}
+.access {
+  background-color: #f6f0fd;
+}
+.print {
+  background-color: #fef0f8;
+}
+.security {
+  background-color: #eaf6fc;
+}
+.services-box-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.services-img {
+  width: 62%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 70px;
+  left: -160px;
+}
+.box-content-title {
+  color: rgb(33, 35, 83);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+.box-content-text {
+  color: rgb(75, 93, 104);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.box-content-link {
+  display: flex;
+  align-items: center;
+  color: #212353;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: auto;
+}
+.box-content-link:hover {
+  text-decoration: underline;
+}
+/*=====================SERVICES STYLES END======================*/
