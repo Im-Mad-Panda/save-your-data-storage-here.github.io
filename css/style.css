@@ -408,3 +408,39 @@ body {
   text-decoration: underline;
 }
 /*=====================SERVICES STYLES END======================*/
+/*=====================FOOTER STYLES START======================*/
+.footer-hr{
+  border-bottom: 2px solid rgb(156, 105, 226);
+opacity: 0.2;
+}
+.footer-cta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 150px 0;
+}
+.propose-title{
+  color: rgb(33, 35, 83);
+font-size: 40px;
+font-weight: 700;
+line-height: 130%;
+margin-bottom: 20px;
+}
+.propose-text{
+  color: rgb(75, 93, 104);
+font-size: 18px;
+font-weight: 500;
+line-height: 160%;
+}
+.cta-button{
+padding: 20px 30px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 900;
+line-height: 160%;
+  background: rgb(240, 99, 184);
+  margin-right: 30px;
+}
+
+
+/*=====================FOOTER STYLES END======================*/
