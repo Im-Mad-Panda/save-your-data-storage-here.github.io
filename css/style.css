@@ -445,6 +445,13 @@ body {
   background: rgb(240, 99, 184);
   margin-right: 30px;
 }
+.footer-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-main{
+  width: 310px;
+}
 .footer-nav-logo {
   display: flex;
   align-items: center;
@@ -458,9 +465,6 @@ body {
   font-size: 20px;
   font-weight: 900;
   line-height: 160%;
-}
-.footer-nav {
-  width: 300px;
 }
 .address {
   color: rgb(33, 35, 83);
@@ -488,5 +492,47 @@ body {
 .footer-number:hover {
   text-decoration: underline;
 }
-
+.footer-category{
+  display: contents;
+}
+.footer-links{
+  color: rgb(33, 35, 83);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 250%;
+}
+.footer-links a:hover{
+  text-decoration: underline;
+  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
+}
+.footer-social{
+  height: 35px;
+  display: flex;
+  align-items: center;
+  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
+  margin-bottom: 25px;
+}
+.category li {
+  margin-bottom: 10px;
+}
+.social-icons{
+  display: flex;
+}
+.icon > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.social-icons li:nth-child(n + 2) {
+  margin-left: 15px;
+}
+.icon:hover {
+  border-radius: 50%;
+  background-color: rgb(83, 83, 83);
+}
+.chat-icon:hover {
+  border-radius: 50%;
+  background-color: rgb(215, 130, 255);
+  box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.1);
+}
 /*=====================FOOTER STYLES END======================*/
