@@ -1,0 +1,1 @@
+const testSlider = new Swiper('.test-slider')
